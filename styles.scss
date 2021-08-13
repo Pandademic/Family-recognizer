@@ -9,7 +9,12 @@ body {
     background-image: linear-gradient(48deg, #71FF91FF 0%, #71C4FFFF 100%);
 }
 //classes
-
+.shadow{
+    @include shadow();
+}
+.header{
+    width:100%;
+}
 //Custom tags
 d {
     margin: .2px;
