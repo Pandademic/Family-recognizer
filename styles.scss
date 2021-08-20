@@ -15,6 +15,11 @@ body {
 .top_div{
     width:100%;
 }
+#cam {
+    animation: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
 //Custom tags
 d {
     margin: .2px;
@@ -27,3 +32,11 @@ N {
     font-family: 'Palette Mosaic', cursive;
 }
 //animations
+@keyframes example {
+    from {
+        border: 5px 5px 5px 5px orange;
+    }
+    to {
+        border: 5px 5px 5px fuchsia;
+    }
+}
