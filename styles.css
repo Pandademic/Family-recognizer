@@ -14,6 +14,12 @@ body {
   width: 100%;
 }
 
+#cam {
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
 d {
   margin: 0.2px;
   font-weight: bold;
@@ -25,4 +31,13 @@ ko {
 
 N {
   font-family: "Palette Mosaic", cursive;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+@keyframes example {
+  from {
+    border: 5px 5px 5px 5px orange;
+  }
+  to {
+    border: 5px 5px 5px fuchsia;
+  }
+}
