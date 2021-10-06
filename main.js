@@ -13,7 +13,7 @@ function draw(){
     classifier.classify(video,gotResult);
 }
 function modelLoaded(){
-    console.log("Posenet has arrived!");
+    console.log("FamilyAI-v0.2.3.xlaim.js has arrived!");
 }
 function gotResult(error,results) {
     if(error) {
