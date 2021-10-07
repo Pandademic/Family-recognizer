@@ -1,12 +1,9 @@
-function preload(){
-
-}
 function setup(){
-    canvas=createCanavs(300,300)
-    canavs.center()
+    canvas=createCanavs(300,300);
+    canavs.center();
     video = createCapture(VIDEO);
     video.hide();
-    classifier=ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/H1-qeSZzg/model.json')
+    classifier=ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/H1-qeSZzg/model.json');
 }
 function draw(){
     image(video,0,0,300,300);
