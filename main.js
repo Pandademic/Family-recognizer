@@ -1,6 +1,6 @@
 function setup(){
     canvas=createCanvas(300,300);
-    canavs.center();
+    canvas.center();
     video = createCapture(VIDEO);
     video.hide();
     classifier=ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/H1-qeSZzg/model.json');
